@@ -1,0 +1,1 @@
+<p>&copy; 2023 Multicultura. Todos os direitos reservados.</p>

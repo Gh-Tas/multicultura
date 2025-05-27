@@ -17,17 +17,17 @@ include_once 'conexão_banco/conexao.php';
     <main>
         <section>
             <h1>Bem-vindo ao Multicultura</h1>
-            <h2>Tela de Login</h2>
-            <form action="perfil_user.php" method="post">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required placeholder="Digite seu email">
+            <h2>Tela de Login Empresa</h2>
+            <form action="pefil_org.php" method="post">
+                <label for="cnpj">cnpj:</label>
+                <input type="text" id="cnpj" name="cnpj" pattern="\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}" title="Digite um CNPJ no formato XX.XXX.XXX/XXXX-XX">
                 <br>
                 <label for="senha">Senha:</label>
                 <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
                 <br>
                 <button type="submit">Entrar</button>
             </form>
-            <a href="login_org.php">Logue como empresa</a>
+            <a href="index.php">Logue como pessoa</a>
         </section>
     </main>
     <footer>
