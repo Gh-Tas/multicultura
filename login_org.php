@@ -30,7 +30,7 @@ include_once 'conexão_banco/conexao.php';
             <a href="index.php">Logue como pessoa</a>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <?php include_once 'footer/footer.php';?>
     </footer>
 

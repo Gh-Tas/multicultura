@@ -8,7 +8,7 @@ include_once 'conexão_banco/conexao.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multicultura</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style_register.css">
 </head>
 
 <body>
@@ -45,7 +45,7 @@ include_once 'conexão_banco/conexao.php';
             <a href="register_org.php">Registre-se como empresa</a>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <?php include_once 'footer/footer.php'; ?>
     </footer>
 

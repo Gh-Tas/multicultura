@@ -30,7 +30,7 @@ include_once 'conexão_banco/conexao.php';
             <a href="login_org.php">Logue como empresa</a>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <?php include_once 'footer/footer.php';?>
     </footer>
 
