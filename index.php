@@ -12,22 +12,19 @@ include_once 'conexão_banco/conexao.php';
 
 <body>
     <header>
-        <?php include_once 'header/header.php';?>
+        <?php include_once 'header/headerlogin.php';?>
     </header>
     <main>
         <section>
             <h1>Bem-vindo ao Multicultura</h1>
             <h2>Tela de Login</h2>
-            <form action="perfil_user.php" method="post">
+            <form action="login.php" method="post">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required placeholder="Digite seu email">
-                <br>
                 <label for="senha">Senha:</label>
                 <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
-                <br>
                 <button type="submit">Entrar</button>
             </form>
-            <a href="login_org.php">Logue como empresa</a>
         </section>
     </main>
     <footer>

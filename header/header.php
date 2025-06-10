@@ -2,9 +2,9 @@
 <form action="inicio.php">
     <button type="submit">Início</button>
 </form>
-<form action="index.php">
-    <button type="submit">Login</button>
+<form action="perfil_user.php">
+    <button type="submit">Perfil</button>
 </form>
-<form action="register_user.php">
-    <button type="submit">Registrar</button>
+<form action="logout.php">
+    <button type="submit">Sair</button>
 </form>
