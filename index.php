@@ -27,7 +27,7 @@ include_once 'conexão_banco/conexao.php';
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <?php include_once 'footer/footer.php';?>
     </footer>
 
